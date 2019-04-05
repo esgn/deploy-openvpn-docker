@@ -1,0 +1,9 @@
+app:
+  image: 'kylemanna/openvpn'
+  volumes:
+    - './data:/etc/openvpn'
+  ports:
+    - "#PORT#:1194/tcp"
+  cap_add:
+    - NET_ADMIN
+  restart: always        
