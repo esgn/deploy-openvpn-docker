@@ -6,10 +6,10 @@ Having to work on many public or corporate Wi-Fi/LAN and struggling with port re
 
 * First scan Wi-Fi or LAN network for open ports with nmap (nmap someopenhost.com -Pn)
 * Deploy a remote OpenVPN container on an available port/protocol
-* Use the generated .ovpn configuration file to set up client access (WARNING : LZO compression must be actived)
+* Use the generated .ovpn configuration file to set up client access (WARNING : LZO compression must be activated on the client side)
 
 ## How ?
 
-Just launch the sh script. Docker must be installed.
+Just launch the sh script. Docker and docker-compose must be installed.
 
 ```bash deploy_openvpn.sh```
